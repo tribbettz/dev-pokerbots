@@ -1,0 +1,16 @@
+names = [
+	'Latoyia Sandage',
+	'Yelena Sanluis',
+	'Mitzi Goodlett',
+	'Charlette Benjamin',
+	'Lawrence Trafton',
+	'Ashli Lymon',
+	'Wanda Cadorette',
+	'Meda Sibley',
+	'Ronni Maring',
+	'Lavelle Manthey',
+	'Boyd Lococo',
+	'Ivana Bilal',
+	'Gustavo Moone',
+	'Cathi Gadson',
+	]
