@@ -1,4 +1,6 @@
 
+import random
+
 class player:
 	def __init__(self, name, strategy=None, money=None):
 		self.name 			= name
@@ -11,7 +13,12 @@ class player:
 		self.fold 			= False
 		
 	def action(self):
-		return ['action',{}]
+		actions		= ['bet', 'call', 'fold']
+		action		= [None, 0]
+		action[0]	= random.choice(actions)
+		if action[0] == 'bet':
+			action[1]	= random.randrange(1,31)
+		return action
 		
 	def reset_state(self):
 		self.cards = []
